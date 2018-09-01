@@ -25,6 +25,7 @@ public class Book {
     @Temporal(TemporalType.DATE)
     private Date publicationDate;
 
+    @Column(name = "nb_of_pages")
     private Integer nbOfPages;
 
     @Column(name = "image_url")
