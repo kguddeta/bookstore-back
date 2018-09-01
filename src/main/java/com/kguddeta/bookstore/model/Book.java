@@ -27,6 +27,7 @@ public class Book {
 
     private Integer nbOfPages;
 
+    @Column(name = "image_url")
     private String imageUrl;
 
     private Language language;
